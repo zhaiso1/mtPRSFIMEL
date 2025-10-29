@@ -19,7 +19,13 @@ devtools::install_github("zhaiso1/mtPRSFIMEL")
 
 ## Usage
 
-Details can be found in **doc** folder for mtPRSFIMEL user manual (**mtPRSFIMEL_0.1.0.pdf**), and **vignettes** folder for a demo illustrating how to use our softwares (**README.Rmd**).
+### Step 1: PolyPred
+
+Update effect size estimates in disease GWAS summary statistics by conducting PolyPred with fine-mapping. Details can be found in **PolyPred** folder (run_polypred_sim_example.sh).
+
+### Step 2: mtPRS-FIMEL
+
+Run mtPRS-FIMEL with refined effect size estimates. Details can be found in **doc** folder for mtPRSFIMEL user manual (**mtPRSFIMEL_0.1.0.pdf**), and **vignettes** folder for a demo illustrating how to use our softwares (**README.Rmd**).
 
 ## References
 
