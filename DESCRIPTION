@@ -1,0 +1,20 @@
+Package: mtPRSFIMEL
+Type: Package
+Title: Improving multi-trait polygenic risk score prediction using fine-mapping and ensemble learning 
+Version: 0.1.0
+Authors@R: c(person("Song", "Zhai", role = c("aut", "cre"), email =
+    "zsviolet1993@gmail.com")) 
+Maintainer: Song Zhai <zsviolet1993@gmail.com>
+Description: Construct multi-trait PRS (mtPRS) via performing fine-mapping and ensemble learning. Package is based on ''Improving multi-trait polygenic risk score prediction using fine-mapping and ensemble learning'' by Zhai, S., Guo, B., and Shen, J., 2025.
+License: GPL (>= 2)
+Depends: R (>= 4.0.0)
+Imports: dplyr (>= 1.0.2), mvtnorm (>= 1.1.1), data.table (>= 1.13.2), Matrix (>= 1.2.18), glmnet (>= 4.0.2), stats (>= 4.0.3), ACAT (>= 0.91)
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+NeedsCompilation: yes
+Packaged: 2025-10-28 00:00:00 UTC; songzhai
+Author: Song Zhai [aut, cre]
+Repository: CRAN
