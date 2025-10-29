@@ -29,6 +29,8 @@ Run mtPRS-FIMEL with refined effect size estimates. Details can be found in **do
 
 ## References
 
+Weissbrod, O., Kanai, M., Shi, H., et al., 2022. Leveraging fine-mapping and multipopulation training data to improve cross-population polygenic risk scores. Nature genetics, 54(4), 450-458.
+
 Zhai, S., Guo, B., Wu, B., Mehrotra, D.V., and Shen, J., 2023. Integrating multiple traits for improving polygenic risk prediction in disease and pharmacogenomics GWAS. Briefings in Bioinformatics, 24(4), bbad181.
 
 Zhai, S., Guo, B., and Shen, J., 2025. Improving multi-trait polygenic risk score prediction using fine-mapping and ensemble learning.
