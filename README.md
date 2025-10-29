@@ -21,7 +21,7 @@ devtools::install_github("zhaiso1/mtPRSFIMEL")
 
 ### Step 1: PolyPred
 
-Update effect size estimates in disease GWAS summary statistics by conducting PolyPred with fine-mapping. Details can be found in **PolyPred** folder (run_polypred_sim_example.sh).
+Update effect size estimates in disease GWAS summary statistics by conducting PolyPred with fine-mapping. Details can be found in **PolyPred** folder (**run_polypred_sim_example.sh**).
 
 ### Step 2: mtPRS-FIMEL
 
