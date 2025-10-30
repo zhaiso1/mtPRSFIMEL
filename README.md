@@ -5,7 +5,7 @@ Improving multi-trait polygenic risk score prediction using fine-mapping and ens
 mtPRSFIMEL package (Zhai et al., 2025) implements a novel multi-trait polygenic risk score (mtPRS) method, mtPRS-FIMEL. This method tackles key challenges in existing multi-trait PRS approaches by integrating information from three levels:
 - variant-level: causal variants identified through fine-mapping analysis;
 - trait-level: data from multiple genetically correlated traits;
-- method-level: an ensemble learning framework that optimally combines complementary PRS methods.
+- method-level: an ensemble learning framework that optimally combines complementary PRS methods, including mtPRS-PCA (Zhai et al., 2023), mtPRS-ML, and stPRSs.
 
 ## Installation
 
@@ -21,7 +21,7 @@ devtools::install_github("zhaiso1/mtPRSFIMEL")
 
 ### Step 1: PolyPred
 
-Update effect size estimates in disease GWAS summary statistics by conducting PolyPred with fine-mapping. Details can be found in **PolyPred** folder (**run_polypred_sim_example.sh**).
+Update effect size estimates in disease GWAS summary statistics by conducting PolyPred (Weissbrod et al., 2022) with fine-mapping. Details can be found in **PolyPred** folder (**run_polypred_sim_example.sh**).
 
 ### Step 2: mtPRS-FIMEL
 
